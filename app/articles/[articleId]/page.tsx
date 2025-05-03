@@ -1,4 +1,3 @@
-"use client";
 
 import Link from "next/link";
 
@@ -16,7 +15,7 @@ const articleId = async ({params, searchParams}: Props) => {
             <p>Reading in {lang}</p>
 
             <div className="flex flex-col gap-4 mt-4">
-                <Link href={`/articles/${articleId}?lang=${lang}`} >English</Link>
+                <Link href={`/articles/${articleId}?lang=en`} >English</Link>
                 <Link href={`/articles/${articleId}?lang=fr`} >French</Link>
                 <Link href={`/articles/${articleId}?lang=es`} >Spanish</Link>
             </div>
