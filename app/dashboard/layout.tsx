@@ -24,7 +24,7 @@ const dashboardLayout = ({children,useranalytics,notifications,revenue,login}: P
                 <div style={{display: "flex", flex: 1}}>{notifications} </div>
             </div>
         </div>
-     ) : login;
+     ) : (login);
 }
  
 export default dashboardLayout;
