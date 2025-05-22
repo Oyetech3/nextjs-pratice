@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.sidebar-shadow {
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Prevent scrolling when mobile sidebar is open */
+body.sidebar-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+/* Optional: Add custom transition effect */
+.sidebar-transition {
+  transition: all 0.3s ease-in-out;
+}

@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.19.5",
+    "axios": "^1.9.0",
     "learning": "file:",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0",
     "next": "15.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
